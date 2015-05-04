@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Git creates a directory for that project containing all the related files, 
+	so that when changes are made all those files are tied together. This keeps the
+	relationships intact when backtracking and troubleshooting.
+	
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+	Staging area holds just the files you are currently working on, the working
+	directory holds all the files, and the repository holds the commit history.
+	
+	With the staging area, I can work on just the files that are going to be
+	affected by modifications. No need to load files that will not be modified.
+	
