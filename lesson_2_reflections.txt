@@ -28,3 +28,8 @@ How would branches help?
 	program could end up looking like. If you decide to terminate the experiment,
 	you have your master intact up to that point. No need to trace back thru many
 	commits to find where the experiment started.
+	
+How do the diagrams help you visualize the branch structure?
+
+	The diagram clearly indicates which commit came before the new branch, and how
+	each branch was independently modified thereon out.
