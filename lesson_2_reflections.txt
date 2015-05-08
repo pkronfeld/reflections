@@ -33,3 +33,11 @@ How do the diagrams help you visualize the branch structure?
 
 	The diagram clearly indicates which commit came before the new branch, and how
 	each branch was independently modified thereon out.
+	
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+	Merging two branches together integrates all the commits into one master linear
+	history. The various commits are ordered by time-stamp. The diagram represents
+	the way different branches have separate commit histories. The commits after
+	the parent in one branch will not appear in the other branch, merge necessary.
