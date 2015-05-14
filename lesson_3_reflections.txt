@@ -3,3 +3,14 @@ When would you want to use a remote repository rather than keeping all your work
   All the time! It is critical to have backups of all your work, and a remote repository
   is a great way to store a copy. If there's nothing proprietary about it, public
   access is not a concern. Paying for private access is an option when necessary.
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+	Just like you want typically want to manually control your commits on your local
+	machine, updates should only happen when you are comfortable with whatever
+	changes you've made. You certainly wouldn't want an automatic update to occur
+	in the middle of creating some changes. That should happen only after you've 
+	completed the code modification, and thus can say exactly what that change 
+	was meant to accomplish.
+	
