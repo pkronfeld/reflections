@@ -41,3 +41,11 @@ Why do we represent it in the diagram the way we do?
 	history. The various commits are ordered by time-stamp. The diagram represents
 	the way different branches have separate commit histories. The commits after
 	the parent in one branch will not appear in the other branch, merge necessary.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging is great when there happens to be no conflicts. When conflicts
+	do arise, manual merging is preferable. This is because the humans that wrote the 
+	code really need to evaluate the ramifications of the conflict and which version
+	is best. This also keeps the coders communicating with each other and working
+	as a team.
