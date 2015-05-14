@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  All the time! It is critical to have backups of all your work, and a remote repository
+  is a great way to store a copy. If there's nothing proprietary about it, public
+  access is not a concern. Paying for private access is an option when necessary.
